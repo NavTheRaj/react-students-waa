@@ -40,3 +40,8 @@
     color: white;
     background-color: #fa923f;
 }
+
+.delete-button:hover,
+.delete-button:active {
+    background-color: #cb1515;
+}

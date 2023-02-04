@@ -9,9 +9,9 @@ const Header = () => {
         <header>
             <nav>
                 <ul>
-                    <li> Students </li>
-                    <li> Add Students </li>
-                    <li> Selected Students </li>
+                    <li> <Link to='/students'>Students </Link> </li>
+                    <li> <Link to='/add-students'>Add Students </Link> </li>
+                    <li> <Link to='/selected-students'>Selected Students </Link></li>
                 </ul>
             </nav>
         </header>

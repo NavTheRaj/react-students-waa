@@ -7,6 +7,33 @@
   pointer-events: none;
 }
 
+.global-body-container {
+  width: 80%;
+  margin: 20px auto;
+  border: 1px solid #eee;
+  box-shadow: 0 2px 3px #ccc;
+  background-color: rgba(128, 128, 128, 0.003);
+  text-align: center;
+}
+
+
+button {
+  margin: 5px 0;
+  padding: 10px;
+  font: inherit;
+  border: 1px solid #fa923f;
+  background-color: transparent;
+  color: #fa923f;
+  cursor: pointer;
+}
+
+button:hover,
+button:active {
+  color: white;
+  background-color: #fa923f;
+}
+
+
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
@@ -32,6 +59,7 @@
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }

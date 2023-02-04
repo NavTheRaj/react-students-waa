@@ -1,0 +1,7 @@
+.content {
+    /* display: flex; */
+    background-color: rgba(236, 242, 242, 0.049);
+    margin: 1px 1px 1px 1px;
+    box-shadow: 1px 2px 3px #ccc;
+    cursor: pointer;
+}

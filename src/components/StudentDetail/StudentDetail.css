@@ -1,0 +1,9 @@
+.course-section {
+    /* display: flex; */
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid rgba(128, 128, 128, 0.404);
+    width: 100%;
+    background-color: rgba(212, 213, 215, 0.637);
+}
